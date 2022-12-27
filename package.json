@@ -1,0 +1,16 @@
+{
+    "name": "nodejs-image-practice",
+    "version": "1.0.0",
+    "description": "nodejs image demo",
+    "author": "Bishop the Sly<ukobishop@gamil.com>",
+    "license": "MIT",
+    "main": "app.js",
+    "keywords": [
+      "nodejs",
+      "bootstrap",
+      "express"
+    ],
+    "dependencies": {
+      "express": "^4.16.4"
+    }
+  }
