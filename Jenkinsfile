@@ -34,8 +34,8 @@ pipeline {
         stage("Tagging and Pushing Image"){
             steps{
                 script{
-                   sh "docker tag bishopthesly:latest 846265604884.dkr.ecr.us-east-2.amazonaws.com/bishopthesly:latest"
-                   sh "docker push 846265604884.dkr.ecr.us-east-2.amazonaws.com/bishopthesly:latest"
+                   sh "docker tag bishopthesly:v2 846265604884.dkr.ecr.us-east-2.amazonaws.com/bishopthesly:v2"
+                   sh "docker push 846265604884.dkr.ecr.us-east-2.amazonaws.com/bishopthesly:v2"
                 }
             }
         }
